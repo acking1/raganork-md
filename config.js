@@ -22,7 +22,7 @@ const settingsMenu = [
   ]
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("mongodb+srv://Acking1:pappu4@@@cluster0.bh5g5mh.mongodb.net/?retryWrites=true&w=majority")
+if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("Raganork~0189247a424d8b679859df63e882c798:357857464e584e68344e413d")
 module.exports = {
     VERSION: 'v4.0.0',
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
